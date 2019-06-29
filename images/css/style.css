@@ -1,0 +1,125 @@
+strong{
+    font-weight:bold;
+}
+body{ margin:0 auto; background: url(../images/fundo_mapa_mundi.jpg)repeat ; font-family:Arial, Helvetica, sans-serif;}
+.wrapper {width:1002px; overflow:hidden;margin:0 auto;}
+.img {border:none;}
+.header {width:1002px;height:109px;float:left;}
+.logo {width:213px;height:109px;float:left;margin-left:380px;background:url(../images/logo.jpg) no-repeat;}
+.logo h1 {text-indent:-8000px;font-family:Arial, Helvetica, sans-serif;font-size:26px;color:#333;}
+.menuRight {width:240px;height:24px;float:right;margin-top:86px;background:url(../images/bg-botao.gif) repeat-x;padding:0px;	padding-left:10px;padding-top:5px;}
+.menuRight li {list-style-type:none;float:left;font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#fff;}
+.menuRight li a {text-decoration: none;color:#fff;padding:5px;margin-top:10px;}
+.menuRight .select {color:#eece80;}
+/*Menu Principal*/
+.mainMenu li {float:left;list-style-type:none;}
+.mainMenu li a {float:left;display:inline;text-indent:-15000px;background: url(../images/teste.jpg);}
+/* Empresa */ 
+.mainMenu li a.empresa {width:158px;height:32px;background-position:0 0;margin-left:-40px;}
+.mainMenu li a.empresa:hover, .mainMenu li a#select1 {background-position:2px -103px}
+/* Solu��es e servi�os */ 
+.mainMenu li a.solucoeServicos {width:237px;height:32px; background-position:-158px 209px;}
+.mainMenu li a.solucoeServicos:hover, .mainMenu li a#select2 {background-position: -156px 105px;}
+/* Projetos*/ 
+ .mainMenu li a.projetos {width:152px;height:32px;background-position:-599px 0;}
+.mainMenu li a.projetos:hover, .mainMenu li a#select3 {background-position:-595px -34px;}
+/* Clientes e Parceiros */ 
+.mainMenu li a.clientesParceiros {width:268px;height:32px;background-position:-755px 0;}
+.mainMenu li a.clientesParceiros:hover, .mainMenu li a#select4 {background-position:-749px -174px;}
+.parceiros {width:672px;overflow:hidden;padding-top:10px;float:left;}
+.parceiros img {margin-left:10px;margin-right:18px;margin-top:10px;float:left;}
+/*/mainMenu*/
+
+.contentHome {width:1002px;height:620px;float:left;}
+.boxesHome {width:987px;height:100px;float:left;margin:400px 0 50px 12px;padding-top:60px;}
+.boxesHome a {text-decoration:none;}
+.footer {width:100%;height:21px;background:#77602f;float:left;color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:11px;	padding-left:252px;padding-top:5px;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.footer a {color:#fff;font-family:Arial, Helvetica, sans-serif;text-decoration:none;}
+.borderLeft {background:url(../images/borda-esquerda-boxes.gif) no-repeat;width:11px;height:128px;float:left;filter:alpha(opacity=80);	-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.borderRight {background: url(../images/borda-direita-boxes.gif) no-repeat right;width:315px;height:128px;float: right;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.boxes {width:326px;height:130px;float:left;cursor:pointer;}
+.boxesTitle {float:letf;font-size:14px;color:#fff;font-family:Arial, Helvetica, sans-serif;#margin-top:10px;}
+.boxesTitle img {border:0px; margin-top:5px 15px 0 0;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.boxesTitle a {border:0px;}
+.boxes p {width:156px;float:left; margin:12px 0 0 33px;font-size:12px;color:#fff;font-family:Arial, Helvetica, sans-serif;}
+.boxes img {float:left;border:0px; margin-right:10px; margin-top:5px;}
+.boxes .icons {margin-left:26px;}
+
+/*Internas*/
+.internalContent {width:1002px;overflow:hidden;float:left; margin-bottom:10px;}
+.contentLeft {width:652px;float:left; margin:10px 0 0 20px;}
+.contentRight {width:194px;height:471px;float:left;margin-left:100px;background:url(../images/banner-right.png) no-repeat;margin-top:15px;}
+.txtInternas, .txtParceiros {width:360px;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#7a6237;line-height:18px;	float:left;margin:0; margin-left:15px;padding-top:0px;}
+.txtParceiros {width:633px;margin:0px;}
+.menuInferior {width:220px;height:20px;float:right;margin:0px;padding:0px; padding-top:20px;}
+.menuInferior li {list-style-type:none;float:left;font-family:Arial, Helvetica, sans-serif;font-size:12px;margin-right:7px;color:#9b8f55;font-weight:bold;}
+.menuInferior li a {text-decoration:none;color:#9b8f55;font-weight:bold;margin-right:6px;}
+.ttInternas {font-size:14px;color:#6f1c26;float:left;padding:0px;margin:0px;margin-right:5px;font-weight:bold;}
+/*/Internas*/
+
+/*Fale conosco*/
+.formulario {width:507px;overflow:hidden;float:left;}
+.contentButton {width:163px;height:33px;float:right;margin:10px -77px 0 0;}
+.formulario label {width:95px;color:#803e46;font-size:12px;float:left;margin:8px 15px 0 0;text-align:right;}
+.formulario .texto {width:266px;margin-top:5px;color:#666;background:#f8efdc;border:1px solid #cdc5b4;}
+.formulario textarea {width:266px;margin-top:10px;background:#f8efdc;border:1px solid #cdc5b4;color: #666;}
+.formulario imput {border:1px solid #bcbcbc;}
+.contentInternasContador {width:600px;overflow:hidden;margin-left:25px;margin-top:20px;	float:left;}
+.ttInternasContador {font-size:16px;color:#a08742;margin:0px;margin:12px 0 15px 0;padding:0px;}
+.ttInternasContador span {color:#b2b2b2;}
+.campanhaMarketing {background:url(../images/bgInputCampanhasMarkting.jpg) no-repeat;float:left;width:215px;height:89px;font-size:12px;}
+.subtitle {color:#b2b2b2;font-size:13px;margin-top:10px 0 25px 0;float:left;}
+.btnDefault {width:68px;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;color:#aa5553;background:url(../images/bg-btns.gif) repeat-x;height:24px;padding:2px 5px 15px 7px;border:1px solid #e8d0cf;cursor:pointer;margin-left:4px; text-decoration:none;}
+#curriculo {width:187px;}
+#ddd{ width:50px;}
+#telefone{ width:210px;}
+/*/Fale conosco*/
+.detalhe {width:82%;height:5px;background:#9b8f55;float:left;margin-left:20px;margin:8px 0 30px  0;float:left;}
+.contentFormulario {width:393px;height:308px;float:left;margin-left:157px;background:#fff;}
+.projetoSolucoes span {text-indent:-8000px;float:left;}
+.projetoSolucoes a {width:284px;height:18px;background:url(../images/projetos-solucoes.jpg) no-repeat; margin:20px 0 40px 17px; float:left;}
+
+
+.formulario #inputFile {
+	background:url(../img/file.png) no-repeat 100% 1px;
+	height:28px;
+	width:452px;
+	margin:0px;
+	float:left;
+        cursor:hand;
+		
+}
+.formulario #inputFile #fileOriginal {
+	opacity: 0.0;
+	-moz-opacity: 0.0;
+	filter: alpha(opacity=00);
+	font-size:12px;
+	margin-left:0;
+        cursor:pointer;
+	
+	
+}
+.formulario #inputFalso {
+	margin-top:-28px;
+	width:452px;
+        cursor:pointer;
+}
+.formulario #inputFalso #fileFalso {
+	width:226px;
+	height:22px;
+	font-size:18px;
+	background:#eaeaea;
+	border:1px solid #eaeaea;
+	cursor:hand;
+	float:left;
+	border:1px solid red;
+}
+#fileFalso {
+	margin-left:111px;
+	margin-top:-30px;
+}
+#fileOriginal {
+	width:300px;
+	margin-left:15px;
+}
+
